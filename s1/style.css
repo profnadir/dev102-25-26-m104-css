@@ -1,0 +1,66 @@
+/* selecteur {
+    propriete : valeur;
+    propriete2 : valeur2;
+    propriete3 : valeur3;
+}
+
+
+
+
+.titre{
+    color: red;
+} */
+
+/* html{
+    font-size: 50px;
+}
+
+.parent{
+    font-size: 20px;
+} */
+
+.uem {
+    /* parent : size parent * 1.5 = 
+    20*1.5=30px */
+    font-size: 1.5em;
+}
+
+.urem{
+    /* r : racine : 50*1.5= */
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+.demo{
+    height: 50px;
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+} 
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.demo1{
+    height: 50vh;
+    width: 100vw;
+    background-color: lightblue;
+}
