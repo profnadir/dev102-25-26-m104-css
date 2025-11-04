@@ -1,0 +1,27 @@
+.article{
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px ;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.titre-article{
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.3);
+}
+
+.detail-article{
+    text-align: center;
+}
+
+.detail-article p{
+    text-align: justify;
+    color: #7b7b7b ;
+}
+
+.detail-article a{
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 200px/50px;
+}
