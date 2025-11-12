@@ -1,0 +1,75 @@
+/* @font-face {
+    font-family: dev102;
+    src: url(fonts/Momo_Signature/MomoSignature-Regular.ttf);
+}
+
+
+body{
+    font-family: dev102;
+} */
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: pink;
+    background-image: url(craft.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    /* text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 10px; */
+
+    text-decoration: underline green dashed 10px;
+
+    background-color: green;
+}
+
+#paragraphe1{
+    line-height: 3em;
+    letter-spacing: 0.4em;
+    word-spacing: 0.6em;
+    width: 400px;
+    text-align: justify;
+
+   /*  border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red; */
+
+    border: 1px solid red; /* shorthand */
+
+    background-color: yellow;
+    
+}
+
+#paragraphe2 { 
+    font : italic bold 100% Arial, Helvetica, sans-serif;
+    background-color: blue;
+    
+    /* color: yellow !important;
+    color: white; */
+
+/*     font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif; */
+}
+
+ul{
+    background-color: purple;
+}
+
+span{
+    background-color: lightsalmon;
+}
