@@ -1,0 +1,10 @@
+The position property specifies the positioning type for an element.
+
+This property can have one of the following values:
+
+static - This is default
+relative // relative par rapport a sa position initiale
+fixed // fixer la position
+absolute
+sticky // relative + fixed
+

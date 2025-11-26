@@ -1,0 +1,22 @@
+#menu{
+    list-style: none;
+}
+#menu li{
+    display: inline;
+}
+#menu a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+}
+
+#menu a:hover{
+    
+    font-size: 1.4em;
+    background-color: white;
+    color: blueviolet;
+    border: 5px solid blueviolet;
+    border-left: 10px solid darkblue;
+}
