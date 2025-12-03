@@ -1,0 +1,58 @@
+/* 
+decendent
+div  p {
+    background-color: green;
+} */
+
+/* 
+child
+div > p {
+    background-color: green;
+} */
+
+/* 
+// أول عنصر
+div + p {
+    background-color: green;
+} */
+
+div ~ p {
+    background-color: green;
+}
+
+/* .demo1 div+span{
+
+} */
+
+.link{
+    text-decoration: none;
+    background-color: burlywood;
+    padding: 10px 20px;
+    margin-top: 5px;
+    color: white;
+}
+
+.link:hover{
+    background-color: brown;
+    font-size: 1.2em;
+    border-bottom: 5px solid black;
+}
+
+input:focus{
+    background-color: aqua;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li{
+    background-color: blueviolet;
+    margin-bottom: 5px;
+    padding: 3px;
+    color: white;
+}
+
+ul li::before{
+    content: "\B200 ";
+}

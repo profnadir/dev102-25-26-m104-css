@@ -1,0 +1,40 @@
+/* div {
+    color: red;
+} */
+
+/* #dev101{
+    color: red;
+}
+
+#dev201{
+    color: red;
+} */
+
+.red{
+    color: red;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+/* h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+/* h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

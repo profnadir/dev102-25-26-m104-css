@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>CV - عسيلة</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #111;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    /* COLONNE GAUCHE */
+    .sidebar {
+      width: 280px;
+      background-color: #06b6d4;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .sidebar .photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 15px auto;
+      border: 3px solid #fff;
+    }
+
+    .sidebar .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .sidebar h2 {
+      text-align: center;
+      margin: 10px 0 5px 0;
+    }
+
+    .sidebar p {
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0 0 15px 0;
+    }
+
+    .menu {
+      margin-top: 20px;
+    }
+
+    .menu a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+    }
+
+    .menu a:hover {
+      background-color: rgba(255,255,255,0.2);
+      padding-left: 5px;
+    }
+
+    /* COLONNE DROITE */
+    .main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      border-bottom: 2px solid #06b6d4;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+      color: #06b6d4;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background-color: #06b6d4;
+      color: white;
+      padding: 5px 10px;
+      margin: 4px;
+      border-radius: 12px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- COLONNE GAUCHE -->
+    <aside class="sidebar">
+      <div class="photo">
+        <img src="data:image/jpeg;base64,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" alt="عسيلة">
+      </div>
+      <h2>عسيلة</h2>
+      <p>Blaireau à miel courageux</p>
+
+      <nav class="menu">
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#education">Formation</a>
+        <a href="#experience">Expériences</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </aside>
+
+    <!-- COLONNE DROITE -->
+    <main class="main">
+      <section id="about">
+        <h3>À propos</h3>
+        <p>عسيلة est célèbre au Maroc pour sa bravoure légendaire. Malgré sa petite taille, il n'a peur de rien et défie les animaux beaucoup plus grands que lui. Sur les réseaux sociaux, il est devenu un symbole de courage et de détermination. Expert en survie et en raids sur les ruches, عسيلة est un maître de l'esquive et de la stratégie.</p>
+        <p>Traits principaux : audace, ténacité, curiosité et humour naturel.</p>
+      </section>
+
+      <section id="skills">
+        <h3>Compétences</h3>
+        <div class="skills">
+          <span>Résistance au venin</span>
+          <span>Furtivité et camouflage</span>
+          <span>Raids sur ruches</span>
+          <span>Survie en pleine nature</span>
+          <span>Grimpeur expert</span>
+          <span>Force et courage légendaire</span>
+        </div>
+        <p>Capable de résister aux abeilles, aux serpents et aux prédateurs plus grands. Polyvalent et rapide dans toutes les situations.</p>
+      </section>
+
+      <section id="education">
+        <h3>Formation</h3>
+        <ul>
+          <li>École de la Savane – Techniques avancées de survie</li>
+          <li>Université de la Ruche – Maîtrise des raids et stratégies de miel</li>
+          <li>Formation autodidacte – Évasion et résistance aux prédateurs</li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <h3>Expériences</h3>
+        <ul>
+          <li>Raids sur ruches locales – Depuis toujours</li>
+          <li>Fuite et esquive des prédateurs – Expertise confirmée</li>
+          <li>Rencontres épiques avec serpents et lions – 2023</li>
+          <li>Viralité sur les réseaux sociaux marocains – 2025</li>
+          <li>Participation à défis courageux en milieu sauvage</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h3>Contact</h3>
+        <ul>
+          <li>Habitat : Forêts et savanes d’Afrique</li>
+          <li>Réseaux sociaux : #عسيلةBuzz</li>
+          <li>Disponibilité : toujours prêt pour un défi !</li>
+        </ul>
+      </section>
+
+      <footer>
+        CV humoristique généré pour le hackathon
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

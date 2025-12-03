@@ -1,0 +1,44 @@
+We can divide CSS selectors into five categories:
+
+->Simple selectors (select elements based on name, id, class)
+
+#id	#firstname	Selects the element with id="firstname"
+.class	.intro	Selects all elements with class="intro"
+*	*	Selects all elements
+element	p	Selects all <p> elements
+element,element,..	div, p	Selects all <div> elements and all <p> elements
+
+->Combinator selectors (select elements based on a specific relationship between them)
+
+Descendant combinator (space)
+Child combinator (>)
+Next sibling combinator (+)
+Subsequent-sibling combinator (~) telda
+
+->Pseudo-class selectors (select elements based on a certain state)
+
+comportement de l'element :
+
+->Pseudo-elements selectors (select and style a part of an element)
+
+le contenu ::
+
+
+->Attribute selectors (select elements based on an attribute or attribute value)
+<h1>Demo of the [attribute] selector</h1>
+<p>Links with a target attribute is styled with a yellow background color:</p>
+<a href="https://www.w3schools.com">W3schools.com</a><br>
+<a href="https://www.google.com" target="_blank">Google.com</a><br>
+<a href="https://www.microsoft.com" target="_blank">Microsoft.com</a>
+<p>Paragraphs with a lang attribute is styled with a salmon background color:</p>
+<p>Hello world!</p>
+<p lang="no">Hei verden!</p>
+<p lang="it">Salve, mondo!</p>
+
+
+Mise en page:
+
+tableau 
+float
+flex
+grid

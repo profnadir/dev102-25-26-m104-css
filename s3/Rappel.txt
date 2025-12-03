@@ -1,0 +1,58 @@
+positions en css : 
+
+static : par default
+
+relative : par rapport a sa position initiale
+
+absolute : par rapport a un autre element
+
+fixed : fixer dans le viewport
+
+sticky : relative + fixed
+
+CSS
+
+selecteur {
+    propriété : valeur;
+    propriété : valeur;
+    propriété : valeur;
+    propriété : valeur;
+}
+
+
+div, p{
+    
+}
+
+div p{
+
+}
+
+
+div > p{
+    
+}
+
+div + p{
+    
+}
+
+div ~ p{
+    
+}
+
+a:hover{
+
+}
+
+div::after{
+
+}
+
+input[type="text"]{
+
+}
+
+a[href=$".com"]{
+    
+}

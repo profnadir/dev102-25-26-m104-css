@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: brown;
+    height: 100px;
+}
+nav{
+    background-color: aqua;
+    height: 500px;
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+}
+section{
+    background-color: chartreuse;
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+aside{
+    background-color: darkorange;
+    height: 500px;
+    width: 25%;
+    float: left;
+}
+footer{
+    background-color: black;
+    height: 100px;
+}
+
+/* .clearfix{
+    clear: both;
+} */
+
+main::after{
+    content: "";
+    display: block;
+    clear: both;
+}
