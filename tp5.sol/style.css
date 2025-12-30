@@ -1,0 +1,58 @@
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+}
+nav{
+    background-color: lightcoral;
+    color: white;
+    flex: 1;
+    height: 300px;
+}
+.milieu{
+    background-color: lightskyblue;
+    color: white;
+    flex: 1;
+    height: 300px;
+}
+aside{
+    background-color: lemonchiffon;
+    color: black;
+    flex: 1;
+    height: 300px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .content{
+        flex-wrap: wrap;
+    }
+    nav,.milieu{
+        flex-basis: 50%;
+    }
+    aside{
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content{
+        flex-direction: column;
+    }
+    nav, .milieu, aside{
+        min-height: 200px; 
+    }
+}
